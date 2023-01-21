@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-color: #efeae2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .App-logo {
@@ -35,4 +41,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+td{
+  padding: 20px;
+}
+
+table{
+  box-shadow: 2px 2px 17px 0px ; 
+  background-color: wheat;
+  border-radius: 12px;
+  padding: 13px;
+  font-size: larger;
+}
+td input{
+  padding: 10px;
+}
+td button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 9px;
+    cursor : pointer
+}
+.counter-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.counter-app{
+  width: 30%;
+  border-radius: 12px;
+  padding: 13px;
+  font-size: larger;
+  box-shadow: 2px 2px 17px 0px ; 
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.counter-app button{
+  padding: 10px;
+  width: 45%;
+  font-size: larger;
+}
+
+.counter-app .increment-btn button{
+  background-color: green!important;
+  color: white;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  
+}
+.counter-app .decrement-btn button{
+  background-color: red!important;
+  color: white;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  
+}
+.counter-app .setzero-btn button{
+  background-color: orange!important;
+  color: white;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.disconnected-btn{
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 13px;
+  padding: 7px;
+  position: relative;
+  left: 110px;
+  cursor: pointer;
 }
